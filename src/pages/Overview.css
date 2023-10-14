@@ -1,0 +1,128 @@
+/* Overview.css */
+
+/* Style the form container */
+.farmer-container form {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  }
+  
+  /* Style form headings */
+  .farmer-container h1 {
+    font-size: 34px; 
+  text-align: center;
+  margin-bottom: 20px;
+  }
+.form-fullname,
+.form-DOB,
+.form-gender,
+.form-number,
+.form-aadhar,
+.form-Email,
+.form-education,
+.form-address,
+.form-city,
+.form-tehsil,
+.form-district,
+.form-state,
+.form-postalcode,
+.form-country,
+.form-nationality,
+.form-farmname,
+.form-croptype{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+  }
+
+.form-fullname input[type="text"],
+.form-DOB input[type="date"],
+.form-gender select,
+.form-number input[type="tel"],
+.form-aadhar input[type="number"],
+.form-Email input[type="email"],
+.form-education input[type="text"],
+.form-address input[type="text"],
+.form-city input[type="text"],
+.form-tehsil input[type="text"],
+.form-district input[type="text"],
+.form-state input[type="text"],
+.form-postalcode input[type="text"],
+.form-country input[type="text"],
+.form-nationality input[type="text"],
+.form-farmname input[type="text"],
+.form-croptype input[type="text"]{
+    width: 50%;
+    height: 35px; /* Adjust the height as needed */
+    padding: 8px;
+    margin-bottom: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: right; /* Align input text to the right */
+    transition: border-color 0.3s, background-color 0.3s; /* Add a smooth transition for border and background-color */
+  }
+  
+.form-fullname input[type="text"]:hover,
+.form-DOB input[type="date"]:hover,
+.form-gender select :hover,
+.form-number input[type="tel"]:hover,
+.form-aadhar input[type="number"]:hover,
+.form-Email input[type="email"]:hover,
+.form-education input[type="text"]:hover,
+.form-address input[type="text"]:hover,
+.form-city input[type="text"]:hover,
+.form-tehsil input[type="text"]:hover,
+.form-district input[type="text"]:hover,
+.form-state input[type="text"]:hover,
+.form-postalcode input[type="text"]:hover,
+.form-country input[type="text"]:hover,
+.form-nationality input[type="text"]:hover,
+.form-farmname input[type="text"]:hover,
+.form-croptype input[type="text"]:hover,
+
+.form-fullname input[type="text"]:focus,
+.form-DOB input[type="date"]:focus,
+.form-gender select :focus,
+.form-number input[type="number"]:focus,
+.form-aadhar input[type="number"]:focus,
+.form-Email input[type="email"]:focus,
+.form-education input[type="text"]:focus,
+.form-address input[type="text"]:focus,
+.form-city input[type="text"]:focus,
+.form-tehsil input[type="text"]:focus,
+.form-district input[type="text"]:focus,
+.form-state input[type="text"]:focus,
+.form-postalcode input[type="text"]:focus,
+.form-country input[type="text"]:focus,
+.form-nationality input[type="text"]:focus,
+.form-farmname input[type="text"]:focus,
+.form-croptype input[type="text"]:focus{
+    border-color: #007bff;
+  background-color: #e8f3fe; 
+}
+  
+  /* Style the submit button */
+  button[type='submit'] {
+    display: block;
+    width: 100%;
+    padding: 10px; 
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+  }
+  
+  /* Hover effect for the submit button */
+  button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  

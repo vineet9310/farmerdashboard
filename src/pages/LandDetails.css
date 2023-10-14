@@ -1,0 +1,162 @@
+/* Overview.css */
+
+/* Style the form container */
+.land-details-form form {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    }
+    
+    /* Style form headings */
+    .land-details-form h1 {
+      font-size: 34px; 
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    .form-nature,
+    .form-area,
+    /* .form-uncultivatedarea, */
+    .form-nature2,
+    .form-includedInHolding,
+    .form-notIncludedInHolding,
+    /* .form-irrigation, */
+    .form-sourceOfIrrigation,
+    .form-irrigableArea,
+    /* .form-generallygrown, */
+    .form-kharif,
+    .form-rabi,
+    .form-zaid,
+    .form-physicalFeatures,
+    .form-soilClass{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between; 
+    }
+    .form-nature label,
+    .form-area label,
+    /* .form-uncultivatedarea label, */
+    .form-nature2 label,
+    .form-includedInHolding label,
+    .form-notIncludedInHolding label,
+    /* .form-irrigation label, */
+    .form-sourceOfIrrigation label,
+    .form-irrigableArea label,
+    /* .form-generallygrown label, */
+    .form-kharif label,
+    .form-rabi label,
+    .form-zaid label,
+    .form-physicalFeatures label,
+    .form-soilClass label{
+      display: block;
+      font-size: medium;
+      margin-bottom: 5px;
+      color: #333;
+      font-weight:bold;
+      text-transform: capitalize;
+    }
+    .form-generallygrown,
+    .form-irrigation,
+    .form-uncultivatedarea label {
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      font-size: medium;
+      margin-bottom: 5px;
+      color: #333;
+      font-weight:bold;
+      text-transform: capitalize;
+      /* font-size: medium; */
+    }
+    .form-nature input[type="text"],
+    .form-area input[type="number"],
+    .form-uncultivatedarea input[type="text"],
+    .form-nature2 input[type="text"],
+    .form-includedInHolding input[type="text"],
+    .form-notIncludedInHolding input[type="text"],
+    .form-irrigation input[type="text"],
+    .form-sourceOfIrrigation input[type="text"],
+    .form-irrigableArea input[type="number"],
+    .form-generallygrown input[type="text"],
+    .form-kharif input[type="text"],
+    .form-rabi input[type="text"],
+    .form-zaid input[type="text"],
+    .form-physicalFeatures input[type="text"],
+    .form-soilClass input[type="text"]{
+      width: 50%;
+      height: 35px; /* Adjust the height as needed */
+      padding: 8px;
+      margin-bottom: 4px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      float: right; /* Align input text to the right */
+      transition: border-color 0.3s, background-color 0.3s; 
+    }
+    .form-nature input[type="text"]:hover,
+    .form-area input[type="number"]:hover,
+    .form-uncultivatedarea input[type="text"]:hover,
+    .form-nature2 input[type="text"]:hover,
+    .form-includedInHolding input[type="text"]:hover,
+    .form-notIncludedInHolding input[type="text"]:hover,
+    .form-irrigation input[type="text"]:hover,
+    .form-sourceOfIrrigation input[type="text"]:hover,
+    .form-irrigableArea input[type="number"]:hover,
+    .form-generallygrown input[type="text"]:hover,
+    .form-kharif input[type="text"]:hover,
+    .form-rabi input[type="text"]:hover,
+    .form-zaid input[type="text"]:hover,
+    .form-physicalFeatures input[type="text"]:hover,
+    .form-soilClass input[type="text"]:hover,
+    .form-nature input[type="text"]:focus,
+    .form-area input[type="number"]:focus,
+    .form-uncultivatedarea input[type="text"]:focus,
+    .form-nature2 input[type="text"]:focus,
+    .form-includedInHolding input[type="text"]:focus,
+    .form-notIncludedInHolding input[type="text"]:focus,
+    .form-irrigation input[type="text"]:focus,
+    .form-sourceOfIrrigation input[type="text"]:focus,
+    .form-irrigableArea input[type="number"]:focus,
+    .form-generallygrown input[type="text"]:focus,
+    .form-kharif input[type="text"]:focus,
+    .form-rabi input[type="text"]:focus,
+    .form-zaid input[type="text"]:focus,
+    .form-physicalFeatures input[type="text"]:focus,
+    .form-soilClass input[type="text"]:focus{
+      border-color: #007bff;
+      background-color: #e8f3fe; 
+    }
+
+
+    
+    /* Style the submit button */
+    /* LandDetails.css */
+
+button[type='submit'] {
+  display: block;
+  margin: 0 auto; /* Center horizontally */
+  width: 50%; /* Reduce the width */
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+/* Hover effect for the submit button */
+button[type='submit']:hover {
+  background-color: #0056b3;
+}
+hr{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+    
